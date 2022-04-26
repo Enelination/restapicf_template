@@ -1,0 +1,3 @@
+aws cloudformation deploy \
+  --template template.yml \
+  --stack-name restapi-cloudformation --capabilities CAPABILITY_IAM
